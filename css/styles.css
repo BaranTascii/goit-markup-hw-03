@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+.top-line {
+  border-width: 1px;
+  border-color: #e7e9fc;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-decoration: none;
+}
+.web {
+  color: #4d5ae5;
+}
+.studio {
+  color: #2e2f42;
+}
+.nav-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-decoration: none;
+  color: #2e2f42;
+}
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-decoration: none;
+  color: #434455;
+}
+.main-header {
+  background-color: #2e2f42;
+}
+.header1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #ffffff;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  cursor: pointer;
+  position: relative;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.feature {
+  background-color: #ffffff;
+}
+.feature-list {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+.header2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.header3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.team-list {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+.portfolio-list {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+footer {
+  background-color: #2e2f42;
+}
+.web2 {
+  color: #4d5ae5;
+}
+.studio2 {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #f4f4fd;
+}
