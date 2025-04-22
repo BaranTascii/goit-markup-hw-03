@@ -79,11 +79,19 @@ body {
   color: #2e2f42;
 }
 
+.nav:hover, .nav:focus{
+  color: #4d5ae5;
+}
+
 address{
   display: flex;
   gap: 40px;
   padding-right: 10px;
   justify-content: flex-end;
+}
+
+address:hover, address:focus{
+  color: #4d5ae5;
 }
 
 .text {
@@ -93,7 +101,7 @@ address{
   text-decoration: none;
   color: #434455;
 }
- 
+
 .main-header {
   background-color: #2e2f42;
   height: 600px;
