@@ -16,7 +16,7 @@ body {
 .container{
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 auto;
 }
 
 .section{
@@ -25,11 +25,32 @@ body {
 }
 
 .top-line {
+  display: flex;
+  margin: 0;
+  padding: 0;
   border-width: 1px solid #e7e9fc;
   background-color: #ffffff;
-  height: 72px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  height: 72px;  
+}
+
+.head-container{
+  width: 1158px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.head-container .container-child1{
+display: flex;
+margin-left: 347px; 
+align-items: center;
+}
+
+.head-container .container-child2{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+
 }
 
 .logo1 {
