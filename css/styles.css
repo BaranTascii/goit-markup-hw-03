@@ -42,17 +42,18 @@ body {
 }
 
 .head-container .container-child{
-  flex: 1;
   text-align: center;
 }
 
 .logo1 {
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 3%;
   text-decoration: none;
+  padding-left: 156px;
 }
 
 .web {
@@ -67,6 +68,7 @@ body {
   display: flex;
   gap: 40px;
   list-style-type: none;
+  padding-left: 76px;
   }
 
 .nav {
